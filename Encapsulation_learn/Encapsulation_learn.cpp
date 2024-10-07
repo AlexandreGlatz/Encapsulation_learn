@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include<vector>
+#include <vector>
 #include <typeinfo>
 #include <string>
 #include "Point.h"
