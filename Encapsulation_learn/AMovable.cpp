@@ -1,5 +1,12 @@
 #include "AMovable.h"
-AMovable::AMovable(Vector2* pDirection, float& speed) :
+AMovable::AMovable():
+	m_pDirectionVect(new Vector2(0.0f,0.0f)),
+	m_speed(0.0f)
+{
+
+}
+
+AMovable::AMovable(Vector2* pDirection, float speed) :
 	m_pDirectionVect(nullptr),
 	m_speed(0.f)
 {

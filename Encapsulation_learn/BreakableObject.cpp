@@ -10,7 +10,7 @@ BreakableObject::BreakableObject(float x, float y, float maxHp)
 	BreakableObject::Entity(pos);
 
 	std::stringstream displayMessage;
-	displayMessage << "Breakable Object just created at x = " << x << "and y = " << y;
+	displayMessage << "Breakable Object just created at x = " << x << "and y = " << y <<" and " << maxHp << " life";
 	std::cout << displayMessage.str() << std::endl;
 }
 
