@@ -6,9 +6,10 @@ public:
 	Point();
 	~Point();
 
+	std::string ToString();
+
+private:
 	float x;
 	float y;
 	float z;
-
-	std::string ToString();
 };

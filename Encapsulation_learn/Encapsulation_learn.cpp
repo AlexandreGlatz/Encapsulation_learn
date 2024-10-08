@@ -18,13 +18,8 @@ int main()
     Point point;
     std::string newElement;
     std::vector<std::string> bag;
-    int X = 9;
     while (true) 
     {
-        point.x = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / X));
-        point.y = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / X));
-        point.z = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / X));
-
         std::cout << "In my bag I add\n";
         std::cin >> newElement;
         bag.push_back(newElement);

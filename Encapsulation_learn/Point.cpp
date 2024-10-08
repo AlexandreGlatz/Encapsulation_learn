@@ -2,10 +2,16 @@
 #include "Tools.h"
 #include <string>
 Point::Point() :
-	x(0),
-	y(0),
-	z(0)
-{}
+	x(0.f),
+	y(0.f),
+	z(0.f)
+{
+	int X = 9;
+
+	x = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / X));
+	y = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / X));
+	z = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / X));
+}
 
 Point::~Point()
 {}
