@@ -3,11 +3,11 @@
 class Attacker
 {
 public:
-	Attacker(float& m_strength);
+	Attacker(const float& strength);
 	~Attacker();
 
 	virtual void Attack(Alive* target);
 
-private:
+protected:
 	float m_strength;
 };

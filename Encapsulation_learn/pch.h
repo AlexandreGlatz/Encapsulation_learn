@@ -1,0 +1,11 @@
+#pragma once
+#include "Alive.h"
+#include "AMovable.h"
+#include "Attacker.h"
+#include "BreakableObject.h"
+#include "Entity.h"
+#include "Mob.h"
+#include "Player.h"
+#include "StaticObject.h"
+#include "Vector2.h"
+#include "World.h"

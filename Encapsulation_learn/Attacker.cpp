@@ -1,6 +1,6 @@
-#include "Attacker.h"
+#include "pch.h"
 
-Attacker::Attacker(float& strength) :
+Attacker::Attacker(const float& strength) :
 	m_strength(0)
 {
 	m_strength = strength;

@@ -2,7 +2,6 @@
 #include "Vector2.h"
 class Entity {
 public:
-	Entity();
 	Entity(Vector2* pos);
 	~Entity();
 

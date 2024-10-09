@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ca88bc75-34a5-44af-a565-5bd4589eab57}</ProjectGuid>
-    <RootNamespace>Encapsulationlearn</RootNamespace>
+    <ProjectGuid>{a6543cd9-ba63-4ee2-869e-40cb4a6fc5d3}</ProjectGuid>
+    <RootNamespace>Exercises</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,8 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Create</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,31 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Alive.cpp" />
-    <ClCompile Include="AMovable.cpp" />
-    <ClCompile Include="Attacker.cpp" />
-    <ClCompile Include="BreakableObject.cpp" />
-    <ClCompile Include="Encapsulation_learn.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="Mob.cpp" />
-    <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="StaticObject.cpp" />
-    <ClCompile Include="Vector2.cpp" />
-    <ClCompile Include="World.cpp" />
+    <ClCompile Include="Exercises.cpp" />
+    <ClCompile Include="Integer.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Tools.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Alive.h" />
-    <ClInclude Include="AMovable.h" />
-    <ClInclude Include="Attacker.h" />
-    <ClInclude Include="BreakableObject.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="Mob.h" />
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="StaticObject.h" />
-    <ClInclude Include="Vector2.h" />
-    <ClInclude Include="World.h" />
+    <ClInclude Include="Integer.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

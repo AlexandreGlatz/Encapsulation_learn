@@ -1,4 +1,4 @@
-#include "Alive.h"
+#include "pch.h"
 
 Alive::Alive():
 	m_hp(0),

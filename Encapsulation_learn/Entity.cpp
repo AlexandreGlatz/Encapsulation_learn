@@ -1,9 +1,4 @@
-#include "Entity.h"
-
-Entity::Entity()
-{
-	m_pPos = new Vector2(0.0f, 0.0f);
-}
+#include "pch.h"
 
 Entity::Entity(Vector2* pPos):
 	m_pPos(nullptr)
