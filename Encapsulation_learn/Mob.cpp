@@ -23,6 +23,6 @@ void Mob::Move()
 {
 	*m_pPos += *m_pDirectionVect * m_speed;
 	std::stringstream moveMessage;
-	moveMessage << "Mob move to x =" << m_pPos->GetX() << "and y =" << m_pPos->GetY() <<std::endl;
+	moveMessage << "Mob move to x = " << m_pPos->GetX() << " and y = " << m_pPos->GetY();
 	std::cout << moveMessage.str() << std::endl;
 }

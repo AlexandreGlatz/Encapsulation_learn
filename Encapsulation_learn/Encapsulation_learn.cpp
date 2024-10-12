@@ -2,12 +2,9 @@
 //
 
 #include "pch.h"
-#include <iostream>
-#include <vector>
-#include <typeinfo>
-#include <string>
+#include <windows.h>
 
-int main()
+void Test()
 {
 	StaticObject staticObj(0.0f, 0.0f);
 	BreakableObject breakableObject(0.0f, 1.0f, 10.0f);
@@ -20,6 +17,17 @@ int main()
 	Player player(&playerPos, 10.0f, &playerDirection, 10.0f);
 	player.Move();
 	player.Attack(&mob);
+}
+int main()
+{
+	World world;
+	world.Init();
+	
+	while (true)
+	{
+		Sleep(1000);
+		world.Step();
+	}
 }
 
 

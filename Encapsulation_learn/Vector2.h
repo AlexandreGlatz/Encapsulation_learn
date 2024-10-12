@@ -9,6 +9,10 @@ public:
 	float GetX() { return m_x; }
 	float GetY() { return m_y; }
 
+	void Normalize();
+	float GetNorm() const;
+	float GetNormSquared() const;
+	float GetDistanceFrom(const Vector2* other);
 	Vector2& operator*=(const float& other);
 	friend Vector2 operator*(Vector2 left, const float& right);
 
